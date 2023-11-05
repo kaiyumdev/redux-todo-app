@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import cancelImage from "../assets/images/cancel.png";
 
 export const Todo = () => {
   return (
@@ -25,7 +26,7 @@ export const Todo = () => {
       <div className="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-red-500 hover:bg-red-500"></div>
 
       <img
-        src="./images/cancel.png"
+        src={cancelImage}
         className="flex-shrink-0 w-4 h-4 ml-2 cursor-pointer"
         alt="Cancel"
       />

@@ -42,7 +42,7 @@
     },
     {
       "text": "Test",
-      "completed": false,
+      "completed": "yellow",
       "id": 8
     },
     {
@@ -51,9 +51,13 @@
       "id": 9
     },
     {
+      "text": "Learn React",
+      "completed": false,
       "id": 10
     },
     {
+      "text": "Learn Redux",
+      "completed": false,
       "id": 11
     }
   ]

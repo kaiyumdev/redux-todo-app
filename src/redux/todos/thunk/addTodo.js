@@ -8,7 +8,9 @@ const addTodo = (todoText) => {
         text: todoText,
         completed: false,
       }),
-      headers: { contentType: "application/json; charset= UTF-8" },
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
     });
     const todo = await response.json();
 

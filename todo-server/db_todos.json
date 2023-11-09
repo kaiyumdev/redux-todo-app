@@ -51,9 +51,13 @@
       "id": 9
     },
     {
+      "text": "Learn React",
+      "completed": false,
       "id": 10
     },
     {
+      "text": "Learn Redux",
+      "completed": false,
       "id": 11
     }
   ]
